@@ -96,6 +96,8 @@ void solve()
     }
 
     // if the distance btw king and move target is 1 so its prohibited
+    // but be carful if (cell 7 and cell 8 this is edge case)
+    // so we write && t/8 == k/8 to ensure they are in the same raw
     if(((abs(t - k) == 1) && t/8 == k/8) || abs(t - k) == 8)
     {
       cout << "Move not allowed" << endl;
