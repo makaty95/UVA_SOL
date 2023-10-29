@@ -1,6 +1,6 @@
 /*
   link : https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1886
-	problem :10945 - Mother bear
+	problem : 10945 - Mother bear
 
 	name : mohamed makaty
 	i hope this help :)
