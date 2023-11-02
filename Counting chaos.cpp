@@ -1,3 +1,9 @@
+/*
+  link : https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2284
+	problem : UVA 11309 Counting Chaos
+	by : mohamed makaty
+	i hope this help :)
+*/
 #include <bits/stdc++.h>
 #define ll long long
 #define ld long double
@@ -73,7 +79,7 @@ bool still(int h, int m)
   if(ind == -1)//0000
     return 0;
 
-  
+
   for (int i = ind, j = 3; i <= j; i++,j--)
   {
     if(t[i] != t[j])
@@ -131,7 +137,7 @@ int main() //:-3<)--<--<
     solve();
 
 
-  
 
-  
+
+
 }
